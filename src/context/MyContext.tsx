@@ -12,7 +12,7 @@ interface MyProviderProps {
 }
 
 export const MyProvider: React.FC<MyProviderProps> = ({ children }) => {
-  const [gasVolume, setGasVolume] = useState<number>(20);
+  const [gasVolume, setGasVolume] = useState<number>(0);
 
   return (
     <MyContext.Provider value={{ gasVolume, setGasVolume }}>

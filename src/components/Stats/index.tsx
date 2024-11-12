@@ -8,7 +8,7 @@ export const Stats = () => {
     const { gasVolume, setGasVolume } = useMyContext()
 
     useEffect(() => {
-        setGasKg(3.452)
+        setGasKg(13)
     }, [])
 
     useEffect(() => {

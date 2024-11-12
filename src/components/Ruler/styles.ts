@@ -25,5 +25,6 @@ export const styles = StyleSheet.create({
         alignItems: 'flex-end',
         gap: 12,
         marginTop: 15,
+        zIndex: 1
     }
 })

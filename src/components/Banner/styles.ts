@@ -5,6 +5,6 @@ export const styles = StyleSheet.create({
         width: '40%',
         alignSelf: 'center',
         marginTop: 45,
-        resizeMode: 'contain'
+        resizeMode: 'contain',
     },
 })
