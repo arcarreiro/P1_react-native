@@ -1,15 +1,12 @@
 import { View } from 'react-native';
-import { Home } from './src/pages/Home';
-import { MyProvider } from './src/context/MyContext';
+import { Login } from './src/pages/Login';
 
 export default function App() {
+
+
   return (
-    <View style={{flex: 1}}>
-      <MyProvider>
-      <Home />
-      </MyProvider>
+    <View>
+      <Login />
     </View>
   );
 }
-
-
